@@ -1,0 +1,1630 @@
+data: {"type":"start","messageId":"107e89f3-5a9f-4b8c-91da-1b90dffa6d25"}
+
+data: {"type":"data-om-status","data":{"windows":{"active":{"messages":{"tokens":7997,"threshold":30000},"observations":{"tokens":0,"threshold":40000}},"buffered":{"observations":{"chunks":0,"messageTokens":0,"projectedMessageRemoval":0,"observationTokens":0,"status":"running"},"reflection":{"inputObservationTokens":0,"observationTokens":0,"status":"idle"}}},"recordId":"3fe24d77-2631-4382-8f2f-2beaaf13c67a","threadId":"63914337-b88b-4f98-9672-17c3d1baf58a","stepNumber":0,"generationCount":0}}
+
+data: {"type":"data-om-buffering-start","data":{"cycleId":"buffer-obs-1773210835659-lfd02b8n9","operationType":"observation","startedAt":"2026-03-11T06:33:55.738Z","tokensToBuffer":8002,"recordId":"3fe24d77-2631-4382-8f2f-2beaaf13c67a","threadId":"63914337-b88b-4f98-9672-17c3d1baf58a","threadIds":["63914337-b88b-4f98-9672-17c3d1baf58a"],"config":{"messageTokens":30000,"observationTokens":40000,"scope":"thread"}}}
+
+data: {"type":"start-step"}
+
+data: {"type":"tool-input-start","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","toolName":"sequentialThinkingTool","dynamic":false}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"{\""}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"thought"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"\":\""}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"D"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"ari"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" hasil"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" web"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" search"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":","}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" ditemukan"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" bahwa"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" PP"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" No"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"."}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" "}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"35"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" Tahun"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" "}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"202"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"1"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" secara"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" ekspl"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"isit"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" meng"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"atur"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" tentang"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" uang"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" komp"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"ens"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"asi"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" bagi"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" peker"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"ja"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"/b"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"uruh"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" PK"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"WT"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":","}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" bukan"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" pes"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"ang"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"on"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" dalam"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" arti"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" trad"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"isional"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" seperti"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" pada"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" peker"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"ja"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" tetap"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"."}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" Ist"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"ilah"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" yang"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" digunakan"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" adalah"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" '"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"uang"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" komp"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"ens"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"asi"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"'"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" yang"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" wajib"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" diberikan"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" kepada"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" peker"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"ja"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" PK"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"WT"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" setelah"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" ber"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"akhir"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"nya"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" masa"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" kerja"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"."}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" Saya"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" perlu"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" menj"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"elaskan"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" per"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"bed"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"aan"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" istil"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"ah"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" ini"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" dan"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" mer"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"inci"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" ket"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"ent"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"uan"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" uang"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" komp"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"ens"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"asi"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" PK"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"WT"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" sesuai"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" PP"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" No"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"."}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" "}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"35"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" Tahun"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":" "}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"202"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"1"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":".\",\""}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"next"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"Thought"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"Needed"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"\":"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"true"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":",\""}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"thought"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"Number"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"\":"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"4"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":",\""}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"total"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"Thought"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"s"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"\":"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"5"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":",\""}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"process"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"Status"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"\":\""}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"execution"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","inputTextDelta":"\"}"}
+
+data: {"type":"tool-input-available","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","toolName":"sequentialThinkingTool","input":{"thought":"Dari hasil web search, ditemukan bahwa PP No. 35 Tahun 2021 secara eksplisit mengatur tentang uang kompensasi bagi pekerja/buruh PKWT, bukan pesangon dalam arti tradisional seperti pada pekerja tetap. Istilah yang digunakan adalah 'uang kompensasi' yang wajib diberikan kepada pekerja PKWT setelah berakhirnya masa kerja. Saya perlu menjelaskan perbedaan istilah ini dan merinci ketentuan uang kompensasi PKWT sesuai PP No. 35 Tahun 2021.","nextThoughtNeeded":true,"thoughtNumber":4,"totalThoughts":5,"processStatus":"execution"},"providerMetadata":{"openai":{"itemId":"fc_05b167e23ebf34030069b10cd424e4819787571df8979ab95f"}}}
+
+data: {"type":"tool-output-available","toolCallId":"call_3At0GrbgUq61MbCH7pUpxk3s","output":{"thought":"Dari hasil web search, ditemukan bahwa PP No. 35 Tahun 2021 secara eksplisit mengatur tentang uang kompensasi bagi pekerja/buruh PKWT, bukan pesangon dalam arti tradisional seperti pada pekerja tetap. Istilah yang digunakan adalah 'uang kompensasi' yang wajib diberikan kepada pekerja PKWT setelah berakhirnya masa kerja. Saya perlu menjelaskan perbedaan istilah ini dan merinci ketentuan uang kompensasi PKWT sesuai PP No. 35 Tahun 2021.","nextThoughtNeeded":true,"thoughtNumber":4,"totalThoughts":5,"isRevision":false,"processStatus":"execution","status":"recorded"}}
+
+data: {"type":"finish-step"}
+
+data: {"type":"data-om-status","data":{"windows":{"active":{"messages":{"tokens":8137,"threshold":30000},"observations":{"tokens":0,"threshold":40000}},"buffered":{"observations":{"chunks":0,"messageTokens":0,"projectedMessageRemoval":0,"observationTokens":0,"status":"running"},"reflection":{"inputObservationTokens":0,"observationTokens":0,"status":"idle"}}},"recordId":"3fe24d77-2631-4382-8f2f-2beaaf13c67a","threadId":"63914337-b88b-4f98-9672-17c3d1baf58a","stepNumber":1,"generationCount":0}}
+
+data: {"type":"start-step"}
+
+data: {"type":"tool-input-start","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","toolName":"sequentialThinkingTool","dynamic":false}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"{\""}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"thought"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"\":\""}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"Saya"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" telah"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" meng"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"ident"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"ifikasi"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" bahwa"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" istil"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"ah"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" yang"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" tepat"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" untuk"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" PK"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"WT"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" adalah"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" '"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"uang"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" komp"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"ens"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"asi"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"',"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" bukan"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" '"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"pes"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"ang"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"on"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"'."}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" U"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"ang"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" komp"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"ens"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"asi"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" ini"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" di"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"atur"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" dalam"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" PP"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" No"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"."}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" "}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"35"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" Tahun"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" "}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"202"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"1"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"."}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" Saya"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" akan"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" meny"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"usun"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" pen"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"jel"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"asan"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" mengenai"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" ket"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"ent"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"uan"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" uang"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" komp"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"ens"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"asi"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" PK"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"WT"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":","}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" termasuk"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" dasar"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" hukum"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":","}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" rum"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"us"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" per"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"hit"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"ungan"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":","}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" dan"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" contoh"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" prakt"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"is"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" agar"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" jaw"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"aban"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" kom"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"preh"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"ens"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"if"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" dan"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" mudah"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":" dip"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"ahami"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":".\",\""}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"next"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"Thought"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"Needed"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"\":"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"false"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":",\""}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"thought"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"Number"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"\":"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"5"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":",\""}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"total"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"Thought"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"s"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"\":"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"5"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":",\""}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"process"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"Status"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"\":\""}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"validation"}
+
+data: {"type":"tool-input-delta","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","inputTextDelta":"\"}"}
+
+data: {"type":"tool-input-available","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","toolName":"sequentialThinkingTool","input":{"thought":"Saya telah mengidentifikasi bahwa istilah yang tepat untuk PKWT adalah 'uang kompensasi', bukan 'pesangon'. Uang kompensasi ini diatur dalam PP No. 35 Tahun 2021. Saya akan menyusun penjelasan mengenai ketentuan uang kompensasi PKWT, termasuk dasar hukum, rumus perhitungan, dan contoh praktis agar jawaban komprehensif dan mudah dipahami.","nextThoughtNeeded":false,"thoughtNumber":5,"totalThoughts":5,"processStatus":"validation"},"providerMetadata":{"openai":{"itemId":"fc_05b167e23ebf34030069b10cd6d9d88197917570bf1e1ac7b2"}}}
+
+data: {"type":"tool-output-available","toolCallId":"call_DVT1SZ0GPoRfI5oG2B0ZsuxW","output":{"thought":"Saya telah mengidentifikasi bahwa istilah yang tepat untuk PKWT adalah 'uang kompensasi', bukan 'pesangon'. Uang kompensasi ini diatur dalam PP No. 35 Tahun 2021. Saya akan menyusun penjelasan mengenai ketentuan uang kompensasi PKWT, termasuk dasar hukum, rumus perhitungan, dan contoh praktis agar jawaban komprehensif dan mudah dipahami.","nextThoughtNeeded":false,"thoughtNumber":5,"totalThoughts":5,"isRevision":false,"processStatus":"validation","status":"recorded"}}
+
+data: {"type":"finish-step"}
+
+data: {"type":"data-om-status","data":{"windows":{"active":{"messages":{"tokens":8252,"threshold":30000},"observations":{"tokens":0,"threshold":40000}},"buffered":{"observations":{"chunks":0,"messageTokens":0,"projectedMessageRemoval":0,"observationTokens":0,"status":"running"},"reflection":{"inputObservationTokens":0,"observationTokens":0,"status":"idle"}}},"recordId":"3fe24d77-2631-4382-8f2f-2beaaf13c67a","threadId":"63914337-b88b-4f98-9672-17c3d1baf58a","stepNumber":2,"generationCount":0}}
+
+data: {"type":"start-step"}
+
+data: {"type":"text-start","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","providerMetadata":{"openai":{"itemId":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4"}}}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"**"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"Ket"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ent"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"uan"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Pes"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ang"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"on"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" untuk"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" PK"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"WT"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" ("}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"Per"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"j"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"anj"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ian"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Ker"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ja"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" W"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"aktu"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" T"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ert"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"entu"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":")**"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"\n\n"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"1"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"."}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" **"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"Ist"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ilah"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" yang"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Tep"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"at"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":":"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" U"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ang"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Kom"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"pens"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"asi"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":","}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" B"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ukan"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Pes"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ang"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"on"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"**\n"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"  "}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" -"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Untuk"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" peker"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ja"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" PK"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"WT"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":","}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" istil"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ah"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" yang"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" digunakan"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" dalam"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" regul"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"asi"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" adalah"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" \""}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"uang"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" komp"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ens"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"asi"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"\","}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" bukan"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" \""}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"pes"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ang"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"on"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"\""}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" seperti"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" pada"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" peker"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ja"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" tetap"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" ("}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"PK"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"W"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"TT"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":").\n"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"  "}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" -"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Das"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ar"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" hukum"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":":"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" PP"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" No"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"."}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" "}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"35"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Tahun"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" "}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"202"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"1"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" tentang"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Per"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"j"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"anj"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ian"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Ker"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ja"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" W"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"aktu"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" T"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ert"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"entu"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":","}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Ali"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"h"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" D"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"aya"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":","}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" W"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"aktu"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Ker"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ja"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" dan"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" W"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"aktu"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Ist"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ir"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ahat"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":","}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" dan"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Pem"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ut"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"usan"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Hub"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ungan"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Ker"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ja"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":".\n\n"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"2"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"."}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" **"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"Hak"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" U"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ang"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Kom"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"pens"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"asi"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" PK"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"WT"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"**\n"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"  "}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" -"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" P"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"eker"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ja"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" PK"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"WT"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" ber"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"hak"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" atas"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" uang"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" komp"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ens"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"asi"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" yang"}
+
+data: {"type":"data-om-buffering-end","data":{"cycleId":"buffer-obs-1773210835659-lfd02b8n9","operationType":"observation","completedAt":"2026-03-11T06:34:03.396Z","durationMs":7737,"tokensBuffered":8252,"bufferedTokens":169,"recordId":"3fe24d77-2631-4382-8f2f-2beaaf13c67a","threadId":"63914337-b88b-4f98-9672-17c3d1baf58a","observations":"Date: Mar 11, 2026\n* 🔴 (13:33) User asked about the severance pay regulations for PKWT (Perjanjian Kerja Waktu Tertentu).\n* 🟡 (13:33) Assistant activated the \"regulation-research\" skill to find relevant regulations.\n* 🟡 (13:33) Assistant identified PP No. 35 Tahun 2021 as a key regulation for PKWT and severance pay.\n* 🟡 (13:33) Assistant's search for specific severance pay articles within PP No. 35 Tahun 2021 did not yield direct results, prompting further targeted searches.\n* 🟡 (13:33) Web search confirmed PP No. 35 Tahun 2021 covers compensation for PKWT workers and severance pay."}}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" wajib"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" dib"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ay"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"arkan"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" oleh"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" pember"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"i"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" kerja"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" setelah"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" ber"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"akhir"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"nya"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" masa"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" kerja"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" PK"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"WT"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":".\n"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"  "}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" -"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" U"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ang"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" komp"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ens"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"asi"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" diberikan"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" mes"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"kip"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"un"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" hubungan"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" kerja"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" ber"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"akhir"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" karena"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" kontr"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ak"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" selesai"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":","}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" bukan"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" karena"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" PH"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"K"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":".\n\n"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"3"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"."}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" **"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"R"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"umus"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Per"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"hit"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ungan"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" U"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ang"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Kom"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"pens"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"asi"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"**\n"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"  "}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" -"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Bes"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"aran"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" uang"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" komp"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ens"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"asi"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" adalah"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" sebesar"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" "}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"1"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" ("}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"s"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"atu"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":")"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" bulan"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" up"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ah"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" untuk"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" masa"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" kerja"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" "}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"12"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" bulan"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" secara"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" terus"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"-m"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ener"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"us"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":".\n"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"  "}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" -"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Jika"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" masa"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" kerja"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" kurang"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" dari"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" "}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"12"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" bulan"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":","}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" maka"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" dih"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"itung"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" secara"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" prop"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ors"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ional"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":":\n"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"    "}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" -"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" U"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ang"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Kom"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"pens"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"asi"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" ="}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" ("}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"M"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"asa"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Ker"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ja"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" dalam"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Bul"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"an"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" /"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" "}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"12"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":")"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" x"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" "}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"1"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Bul"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"an"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Up"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ah"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"\n\n"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"4"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"."}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" **"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"Cont"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"oh"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Per"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"hit"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ungan"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"**\n"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"  "}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" -"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Jika"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" masa"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" kerja"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" "}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"6"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" bulan"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" dan"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" up"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ah"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" se"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"bulan"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Rp"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"5"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"."}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"000"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"."}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"000"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":":\n"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"    "}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" -"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" U"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ang"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Kom"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"pens"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"asi"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" ="}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" ("}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"6"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"/"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"12"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":")"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" x"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Rp"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"5"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"."}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"000"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"."}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"000"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" ="}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Rp"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"2"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"."}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"500"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"."}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"000"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"\n\n"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"5"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"."}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" **"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"Ket"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ent"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"uan"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" L"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ain"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"**\n"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"  "}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" -"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" U"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ang"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" komp"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ens"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"asi"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" tidak"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" berlaku"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" untuk"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" PK"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"WT"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" yang"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" ber"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"akhir"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" sebelum"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" wakt"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"unya"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" karena"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" peker"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ja"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" meng"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"und"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"urkan"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" diri"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":","}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" atau"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" karena"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" alasan"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" tertentu"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" yang"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" di"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"atur"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" dalam"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" PP"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" No"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"."}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" "}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"35"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Tahun"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" "}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"202"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"1"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":".\n"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"  "}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" -"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" U"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ang"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" komp"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ens"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"asi"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" wajib"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" dib"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ay"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"arkan"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" paling"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" lamb"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"at"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" pada"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" saat"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" ber"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"akhir"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"nya"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" PK"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"WT"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":".\n\n"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"6"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"."}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" **"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"Refer"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ensi"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Regul"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"asi"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"**\n"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"  "}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" -"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" PP"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" No"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"."}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" "}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"35"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Tahun"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" "}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"202"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"1"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":","}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" khusus"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"nya"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Bab"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" V"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" tentang"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" U"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ang"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Kom"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"pens"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"asi"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" PK"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"WT"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":".\n\n"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"---\n\n"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"**"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"Kes"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"imp"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ulan"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":":**"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"  \n"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"P"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"eker"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ja"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" PK"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"WT"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" tidak"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" mendapatkan"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" pes"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ang"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"on"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" seperti"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" peker"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ja"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" tetap"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":","}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" mel"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ainkan"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" uang"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" komp"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ens"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"asi"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" sesuai"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" ket"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ent"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"uan"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" PP"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" No"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"."}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" "}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"35"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Tahun"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" "}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"202"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"1"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"."}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Bes"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ar"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"annya"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" prop"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ors"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ional"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" dengan"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" masa"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" kerja"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" dan"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" wajib"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" dib"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ay"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"arkan"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" setelah"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" kontr"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ak"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" ber"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"akhir"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":".\n\n"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"Jika"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" Anda"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" membutuhkan"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" kut"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"ipan"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" pas"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"al"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" atau"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" pen"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"jel"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"asan"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" lebih"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" detail"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" dari"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" regul"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"asi"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":","}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" sil"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"akan"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":" inform"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"asikan"}
+
+data: {"type":"text-delta","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","delta":"!"}
+
+data: {"type":"text-end","id":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4","providerMetadata":{"openai":{"itemId":"msg_05b167e23ebf34030069b10cd8fe048197b017614f237f38e4"}}}
+
+data: {"type":"finish-step"}
+
+data: {"type":"finish"}
+
+data: [DONE]
+

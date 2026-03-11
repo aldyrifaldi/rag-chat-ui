@@ -1,0 +1,289 @@
+{
+    "messages": [
+        {
+            "id": "qleQz1ZrxlFpgnA5",
+            "role": "user",
+            "metadata": {
+                "createdAt": "2026-03-11T01:30:15.759Z",
+                "threadId": "3aaa1b84-2694-49b5-b217-62803beeadb7",
+                "resourceId": "9ccd1329-6008-4727-ae4a-47c864ac460c"
+            },
+            "parts": [
+                {
+                    "type": "text",
+                    "text": "bagaimana situasi pajak di indonesia"
+                }
+            ]
+        },
+        {
+            "id": "73ade75f-f779-4513-a82c-7fe06336cd8e",
+            "role": "assistant",
+            "metadata": {
+                "createdAt": "2026-03-11T01:30:32.349Z",
+                "threadId": "3aaa1b84-2694-49b5-b217-62803beeadb7",
+                "resourceId": "9ccd1329-6008-4727-ae4a-47c864ac460c"
+            },
+            "parts": [
+                {
+                    "type": "data-om-status",
+                    "data": {
+                        "windows": {
+                            "active": {
+                                "messages": {
+                                    "tokens": 37,
+                                    "threshold": 30000
+                                },
+                                "observations": {
+                                    "tokens": 0,
+                                    "threshold": 40000
+                                }
+                            },
+                            "buffered": {
+                                "observations": {
+                                    "chunks": 0,
+                                    "messageTokens": 0,
+                                    "projectedMessageRemoval": 0,
+                                    "observationTokens": 0,
+                                    "status": "idle"
+                                },
+                                "reflection": {
+                                    "inputObservationTokens": 0,
+                                    "observationTokens": 0,
+                                    "status": "idle"
+                                }
+                            }
+                        },
+                        "recordId": "27b8e07e-df25-4ff0-a7ae-5e915321781c",
+                        "threadId": "3aaa1b84-2694-49b5-b217-62803beeadb7",
+                        "stepNumber": 0,
+                        "generationCount": 0
+                    }
+                },
+                {
+                    "type": "text",
+                    "text": "Untuk memberikan gambaran situasi pajak di Indonesia secara akurat dan terkini, saya akan melakukan penelusuran pada basis pengetahuan perpajakan dan regulasi yang tersedia. Mohon tunggu sebentar, saya akan mencari informasi terkait situasi pajak di Indonesia, termasuk kebijakan, tantangan, dan perkembangan terbaru.",
+                    "providerMetadata": {
+                        "openai": {
+                            "itemId": "msg_03aa2a03e28282e90069b0c5b42db08194b7f64617358cb878"
+                        }
+                    }
+                },
+                {
+                    "type": "tool-searchTaxKnowledgeTool",
+                    "toolCallId": "call_qfAxmGaw9s6yo5uqUAYj3i1O",
+                    "input": {
+                        "query": "situasi pajak di Indonesia",
+                        "limit": 5
+                    },
+                    "output": [
+                        {
+                            "id": "540b4265-02f2-43ba-b424-35e2711649d8",
+                            "text": "**Penyedia Jasa Aplikasi Perpajakan** (PJAP) adalah pihak yang ditunjuk oleh Direktur Jenderal Pajak untuk menyediakan jasa Aplikasi Perpajakan bagi Wajib Pajak dan dapat menyediakan jasa Aplikasi Penunjang bagi Wajib Pajak. **PajakExpress** adalah PJAP yang sudah terdaftar resmi dan dan ditunjuk oleh DJP, PajakExpress memiliki fitur pembuatan Faktur Pajak, Bukti Potong Unifikasi, Bukti Potong PPh21 dan serte pelaporan SPT. Tidak cuman fitur utama tapi fitur tambahan seperti cek VSWP (validasi status wajib pajak) dapat sebagai fitur ungulan untuk garda terdepan dalam pengecekan NPWP/NIK",
+                            "similarity": 0.8329273661461633,
+                            "metadata": {
+                                "loc": {
+                                    "lines": {
+                                        "to": 1,
+                                        "from": 1
+                                    }
+                                },
+                                "type": "information",
+                                "topic": "Umum",
+                                "knowledge_id": "4b469353-9378-4650-9b53-17ad6838ec02",
+                                "tags": []
+                            }
+                        },
+                        {
+                            "id": "13cba9c8-7aa5-4ba7-9052-519dbd6b6bd1",
+                            "text": "\\# LAMPIRAN PERATURAN PEMERINTAH REPUBLIK INDONESIA NOMOR : 58 TAHUN 2023 TENTANG : TARIF PEMOTONGAN PAJAK PENGHASILAN PASAL 21 ATAS PENGHASILAN SEHUBUNGAN DENGAN PEKERJAAN, JASA, ATAU KEGIATAN WAJIB PAJAK ORANG PRIBADI A. TARIF EFEKTIF BULANAN KATEGORI A | Penghasilan Bruto Bulanan | Tarif Pajak | | :--: | :--: | | sampai dengan Rp5.400.000,00 (lima juta empat ratus ribu rupiah) | $0 \\\\%$   \n (nol persen) | | di atas Rp5.400.000,00 (lima juta empat ratus ribu rupiah) sampai dengan Rp5.650.000,00 (lima juta enam ratus lima puluh ribu rupiah) | $0,25 \\\\%$   \n (nol koma dua lima persen) | | di atas Rp5.650.000,00 (lima juta enam ratus lima puluh ribu rupiah) sampai dengan Rp5.950.000,00 (lima juta sembilan ratus lima puluh ribu rupiah) | $0,5 \\\\%$   \n (nol koma lima persen) | | di atas Rp5.950.000,00 (lima juta sembilan ratus lima puluh ribu rupiah) sampai dengan Rp6.300.000,00 (enam juta tiga ratus ribu rupiah) | $0,75 \\\\%$   \n (nol koma tujuh lima persen) | | di atas Rp6.300.000,00 (enam juta tiga ratus ribu rupiah) sampai dengan Rp6.750.000,00 (enam juta tujuh ratus lima puluh ribu rupiah) | $1 \\\\%$   \n (satu persen) | | di atas Rp6.750.000,00 (enam juta tujuh ratus lima puluh ribu rupiah) sampai dengan Rp7.500.000,00 (tujuh juta lima ratus ribu rupiah) | $1,25 \\\\%$   \n (satu koma dua lima persen) | | di atas Rp7.500.000,00 (tujuh juta lima ratus ribu rupiah) sampai dengan Rp8.550.000,00 (delapan juta lima ratus lima puluh ribu rupiah) | $1,5 \\\\%$   \n (satu koma lima persen) | | di atas Rp8.550.000,00 (delapan juta lima ratus lima puluh ribu rupiah) sampai dengan Rp9.650.000,00 (sembilan juta enam ratus lima puluh ribu rupiah) | $1,75 \\\\%$   \n (satu koma tujuh lima persen) | | di atas Rp9.650.000,00 (sembilan juta enam ratus lima puluh ribu rupiah) sampai dengan Rp10.050.000,00 (sepuluh juta lima puluh ribu rupiah) | $2 \\\\%$   \n (dua persen) | | di atas Rp10.050.000,00 (sepuluh juta lima puluh ribu rupiah) sampai dengan Rp10.350.000,00 (sepuluh juta tiga ratus lima puluh ribu rupiah) | $2,25 \\\\%$   \n (dua koma dua lima persen) | | di atas Rp10.350.000,00 (sepuluh juta tiga ratus lima puluh ribu rupiah) sampai dengan Rp10.700.000,00 (sepuluh juta tujuh ratus ribu rupiah) | $2,5 \\\\%$   \n (dua koma lima persen) | | di atas Rp10.700.000,00 (sepuluh juta tujuh ratus ribu rupiah) sampai dengan Rp11.050.000,00 (sebelas juta lima puluh ribu rupiah) | $3 \\\\%$   \n (tiga persen) | | di atas Rp11.050.000,00 (sebelas juta lima puluh ribu rupiah) sampai dengan Rp11.600.000,00 (sebelas juta enam ratus ribu rupiah) | $3,5 \\\\%$   \n (tiga koma lima persen) | | di atas Rp11.600.000,00 (sebelas juta enam ratus ribu rupiah) sampai dengan Rp12.500.000,00 (dua belas juta lima ratus ribu rupiah) | $4 \\\\%$   \n (empat persen) | | di atas Rp12.500.000,00 (dua belas juta lima ratus ribu rupiah) sampai dengan Rp13.750.000,00 (tiga belas juta tujuh ratus lima puluh ribu rupiah) | $5 \\\\%$   \n (lima persen) | | di atas Rp13.750.000,00 (tiga belas juta tujuh ratus lima puluh ribu rupiah) sampai dengan Rp15.100.000,00 (lima belas juta seratus ribu rupiah) | $6 \\\\%$   \n (enam persen) | | di atas Rp15.100.000,00 (lima belas juta seratus ribu rupiah) sampai dengan Rp 16.950.000,00 (enam belas juta sembilan ratus lima puluh ribu rupiah) | $7 \\\\%$   \n (tujuh persen) | | di atas Rp16.950.000,00 (enam belas juta sembilan ratus lima puluh ribu rupiah) sampai dengan Rp19.750.000,00 (sembilan belas juta tujuh ratus lima puluh ribu rupiah) | $8 \\\\%$   \n (delapan persen) | | di atas Rp19.750.000,00 (sembilan belas juta tujuh ratus lima puluh ribu rupiah) sampai dengan Rp24.150.000,00 (dua puluh empat juta seratus lima puluh ribu rupiah) | $9 \\\\%$   \n (sembilan persen) | | di atas Rp24.150.000,00 (dua puluh empat juta seratus lima puluh ribu rupiah) sampai dengan Rp26.450.000,00 (dua puluh enam juta empat ratus lima puluh ribu rupiah) | $10 \\\\%$   \n (sepuluh persen) | | di atas Rp26.450.000,00 (dua puluh enam juta empat ratus lima puluh ribu rupiah) sampai dengan Rp28.000.000,00 (dua puluh delapan juta rupiah) | $11 \\\\%$",
+                            "similarity": 0.83179798220987,
+                            "metadata": {
+                                "loc": {
+                                    "lines": {
+                                        "to": 21,
+                                        "from": 1
+                                    }
+                                },
+                                "type": "information",
+                                "topic": "PPh",
+                                "knowledge_id": "5b934397-cc9d-4f50-80f4-111427431620",
+                                "tags": []
+                            }
+                        },
+                        {
+                            "id": "ee03efcc-5ef3-4f73-adff-389a07ba2fc5",
+                            "text": "peredaran usaha, misalnya antara 1% hingga 3%.^{29} Ini merupakan penyederhanaan signifikan dari mekanisme kredit pajak standar. Di samping itu, UU PPN tetap mempertahankan fasilitas yang sudah ada, yang dapat dikategorikan sebagai berikut: 1\\. PPN Dibebaskan: Pajak Keluaran atas penyerahan adalah nol, namun Pajak Masukan yang terkait dengan penyerahan tersebut tidak dapat dikreditkan.^{7} Fasilitas ini memutus rantai PPN dan beban PPN dari tahap sebelumnya menjadi biaya bagi pengusaha. 2\\. PPN Tidak Dipungut: PPN terutang atas penyerahan tidak dipungut oleh PKP (misalnya, untuk penyerahan ke kawasan berikat). Berbeda dengan fasilitas dibebaskan, Pajak Masukan yang terkait dengan penyerahan ini tetap dapat dikreditkan.^{7} Ini memberikan keuntungan pajak penuh bagi PKP. 3\\. PPN Ditanggung Pemerintah (DTP): PPN tetap terutang dan dipungut oleh PKP, namun pemerintah yang membayarkannya atas nama konsumen. Fasilitas ini bersifat subsidi langsung dan sering digunakan sebagai insentif fiskal temporer untuk menstimulasi sektor tertentu, seperti properti.^{6} Pengenalan PPN Final dalam Pasal 9A merupakan sebuah langkah pragmatis yang menyeimbangkan antara kemurnian teoretis sistem PPN dengan realitas administrasi di lapangan. Mekanisme kredit pajak standar, meskipun ideal, membebankan kepatuhan yang tinggi (pembukuan detail, pencocokan faktur, pelaporan rumit).^{3} Beban ini sangat berat bagi Usaha Mikro, Kecil, dan Menengah (UMKM) serta sektor usaha tertentu.^{29} Biaya kepatuhan yang tinggi sering kali berujung pada tingkat kepatuhan yang rendah, menciptakan kebocoran penerimaan dan persaingan usaha yang tidak sehat. PPN Final hadir sebagai solusi yang mengorbankan konsep \"nilai tambah\" murni demi kesederhanaan administrasi dan peningkatan kepatuhan. Dengan hanya membayar persentase kecil dari omzet bruto, hambatan untuk patuh menjadi jauh lebih rendah, sehingga secara efektif memperluas basis pajak riil. ## Bagian IV: Hierarki Peraturan dan Knowledge Base PPN untuk Aplikasi RAG ### 4.1\\. Memahami Struktur Hierarki Peraturan Perpajakan Indonesia Sistem hukum di Indonesia memiliki hierarki peraturan perundang-undangan yang jelas. Dalam konteks perpajakan, struktur ini sangat penting untuk dipahami karena peraturan yang lebih rendah tidak boleh bertentangan dengan yang lebih tinggi.^{31} 1\\. Undang-Undang Dasar (UUD) 1945: Landasan konstitusional tertinggi, di mana Pasal 23A menyatakan bahwa pajak dan pungutan lain yang bersifat memaksa untuk keperluan negara diatur dengan undang-undang.^{32} 2\\. Undang-Undang (UU): Disahkan oleh Dewan Perwakilan Rakyat (DPR) bersama Presiden. Untuk PPN, payung hukum utamanya adalah UU No. 8 Tahun 1983 sebagaimana telah beberapa kali diubah, terakhir dengan UU No. 7 Tahun 2021\\. ${ }^{32}$ UU menetapkan asas, prinsip umum, kewenangan, tarif, objek, dan subjek. 3\\. Peraturan Pemerintah (PP): Diterbitkan oleh Presiden untuk melaksanakan perintah UU. PP memberikan aturan pelaksanaan yang lebih rinci daripada UU. ${ }^{32}$ Contohnya adalah PP No. 44 Tahun 2022 yang merupakan aturan pelaksana utama UU PPN. 4\\. Peraturan Menteri Keuangan (PMK): Diterbitkan oleh Menteri Keuangan untuk melaksanakan ketentuan dalam PP atau UU. PMK berisi detail teknis, prosedur, dan batasan-batasan yang lebih spesifik. ${ }^{32}$ 5\\. Peraturan Direktur Jenderal Pajak (Perdirjen): Diterbitkan oleh Dirjen Pajak dan berisi pedoman operasional dan teknis pelaksanaan bagi aparat pajak dan Wajib Pajak. ${ }^{32}$ # 4.2\\. Tabel Knowledge Base Peraturan PPN Tabel berikut ini disusun sebagai basis pengetahuan (knowledge base) yang terstruktur untuk digunakan oleh sistem AI seperti RAG. Setiap kolom menyediakan metadata penting yang memungkinkan sistem tidak hanya menemukan peraturan, tetapi juga memahami konteks, otoritas, dan relevansinya. Tabel 4.1: Knowledge Base Peraturan PPN Indonesia | ID",
+                            "similarity": 0.8284516539035256,
+                            "metadata": {
+                                "loc": {
+                                    "lines": {
+                                        "to": 1,
+                                        "from": 1
+                                    }
+                                },
+                                "type": "information",
+                                "topic": "PPN",
+                                "knowledge_id": "fdf15910-5eee-4323-8c77-6e5da6f41102",
+                                "tags": []
+                            }
+                        },
+                        {
+                            "id": "b9b49c55-f615-4af1-87a0-4d2d6e674e10",
+                            "text": "PMK 168/2023 mengecualikan beberapa pihak yang penghasilannya tidak dipotong PPh Pasal 21\\. [Pihak yang Tidak Dipotong PPh Pasal 21](https://ortax.org/penerima-penghasilan-ini-tidak-dipotong-pph-21) yaitu:\n\n1. **Pejabat perwakilan dan konsulat atau pejabat lain dari negara asing**, dan orang-orang yang diperbantukan kepada mereka yang bekerja dan bertempat tinggal bersama mereka, dengan syarat:\n\n  * bukan Warga Negara Indonesia;\n  * di Indonesia tidak menerima atau memperoleh penghasilan lain di luar jabatan atau pekerjaannya tersebut; dan\n  * negara yang bersangkutan memberikan perlakuan timbal balik.\n2. **Pejabat perwakilan organisasi internasional** yang dikecualikan dari subjek pajak, dengan syarat:\n\n  * bukan warga negara Indonesia; dan\n  * tidak menjalankan usaha atau kegiatan atau pekerjaan lain untuk memperoleh penghasilan dari Indonesia.\n\nHal ini dikarenakan pejabat perwakilan konsulat atau pejabat lain dari negara asing, maupun pejabat perwakilan organisasi internasional bukan merupakan subjek pajak. Hal ini menyebabkan penghasilan yang didapat tidak dipotong PPh Pasal 21\\. Hal ini dapat dikecualikan jika pejabat-pejabat tersebut menerima atau memperoleh penghasilan di luar jabatan mereka, maka dapat dikenakan Pajak Penghasilan.",
+                            "similarity": 0.8274580939139087,
+                            "metadata": {
+                                "tags": [
+                                    {
+                                        "id": "79c305c7-b090-4885-ae66-fb16f9f6a11d",
+                                        "title": "Bukan Subjek PPh Pasal 21/26",
+                                        "internalId": "e65cbb5f-c80f-4011-8af9-d05dd6f599bb",
+                                        "description": "Informasi mengenai orang pribadi yang dikecualikan dari pemotongan PPh Pasal 21/26"
+                                    }
+                                ],
+                                "type": "information",
+                                "topic": "Konsep dan Teori PPh Pasal 21/26",
+                                "sources": [
+                                    {
+                                        "jenis": "Peraturan Menteri Keuangan",
+                                        "nomor": "168 Tahun 2023",
+                                        "deskripsi": "Dasar hukum utama pihak yang dikecualikan dari PPh Pasal 21"
+                                    }
+                                ],
+                                "startIndex": 0,
+                                "knowledge_id": "bab46580-f086-4bba-9a97-6ef4b5d990ca",
+                                "knowledge": {
+                                    "id": "bab46580-f086-4bba-9a97-6ef4b5d990ca",
+                                    "title": null,
+                                    "information": "<p>PMK 168/2023 mengecualikan beberapa pihak yang penghasilannya tidak dipotong PPh Pasal 21. <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"text-blue-500 underline\" href=\"https://ortax.org/penerima-penghasilan-ini-tidak-dipotong-pph-21\">Pihak yang Tidak Dipotong PPh Pasal 21</a> yaitu:</p><ol><li><p><strong>Pejabat perwakilan dan konsulat atau pejabat lain dari negara asing</strong>, dan orang-orang yang diperbantukan kepada mereka yang bekerja dan bertempat tinggal bersama mereka, dengan syarat:</p><ul><li><p>bukan Warga Negara Indonesia;</p></li><li><p>di Indonesia tidak menerima atau memperoleh penghasilan lain di luar jabatan atau pekerjaannya tersebut; dan</p></li><li><p>negara yang bersangkutan memberikan perlakuan timbal balik.</p></li></ul></li><li><p><strong>Pejabat perwakilan organisasi internasional</strong> yang dikecualikan dari subjek pajak, dengan syarat:</p><ul><li><p>bukan warga negara Indonesia; dan</p></li><li><p>tidak menjalankan usaha atau kegiatan atau pekerjaan lain untuk memperoleh penghasilan dari Indonesia.</p></li></ul></li></ol><p style=\"text-align: justify;\">Hal ini dikarenakan pejabat perwakilan konsulat atau pejabat lain dari negara asing, maupun pejabat perwakilan organisasi internasional bukan merupakan subjek pajak. Hal ini menyebabkan penghasilan yang didapat tidak dipotong PPh Pasal 21. Hal ini dapat dikecualikan jika pejabat-pejabat tersebut menerima atau memperoleh penghasilan di luar jabatan mereka, maka dapat dikenakan Pajak Penghasilan.</p>",
+                                    "internalId": "a4089fe7-089c-4c10-ba89-6524ffc6e94f",
+                                    "topicId": "85f29421-025b-4356-88b1-efb9b1f0ac2a",
+                                    "sources": [
+                                        {
+                                            "jenis": "Peraturan Menteri Keuangan",
+                                            "nomor": "168 Tahun 2023",
+                                            "deskripsi": "Dasar hukum utama pihak yang dikecualikan dari PPh Pasal 21"
+                                        }
+                                    ],
+                                    "createdAt": "2025-11-11 09:43:51.300876+00",
+                                    "updatedAt": "2025-11-11 09:43:51.300876+00",
+                                    "createdBy": null,
+                                    "updatedBy": null,
+                                    "type": "information",
+                                    "informationFormat": "html",
+                                    "informationVia": "key-in",
+                                    "fileName": null
+                                }
+                            }
+                        },
+                        {
+                            "id": "4d58edf3-2907-4c7a-ba6e-ee1f7dead4a0",
+                            "text": "\\# Analisis Komprehensif dan Knowledge Base Regulasi Pajak Pertambahan Nilai (PPN) di Indonesia Pasca-UU Harmonisasi Peraturan Perpajakan ## Laporan Eksekutif Laporan ini menyajikan analisis mendalam mengenai peraturan Pajak Pertambahan Nilai (PPN) di Indonesia, dengan fokus pada evolusi, struktur, dan implikasi kebijakan pasca-pemberlakuan Undang-Undang Nomor 7 Tahun 2021 tentang Harmonisasi Peraturan Perpajakan (UU HPP). Kebijakan PPN Indonesia telah bertransformasi secara dinamis, beralih dari pajak konsumsi standar menjadi instrumen fiskal yang canggih untuk mencapai berbagai tujuan ekonomi. Analisis ini menyoroti pergeseran strategis dari penyempitan basis pajak (melalui banyak pengecualian) ke perluasan basis pajak (melalui reklasifikasi objek) yang diamanatkan oleh UU HPP. Perubahan ini mencerminkan dua tujuan kebijakan utama: optimalisasi penerimaan negara dan penyederhanaan administrasi. Laporan ini menguraikan fondasi dan mekanisme dasar PPN, menelusuri evolusi legislatifnya dari UU No. 8 Tahun 1983 hingga reformasi terkini, dan menganalisis secara detail perubahan-perubahan kunci yang diperkenalkan oleh UU HPP. Peran krusial peraturan pelaksana, seperti Peraturan Pemerintah (PP) dan Peraturan Menteri Keuangan (PMK), dalam menerjemahkan mandat legislatif menjadi kerangka kerja operasional juga dibahas secara mendalam. Untuk tujuan praktis, laporan ini diakhiri dengan penyajian knowledge base peraturan PPN yang terstruktur, dirancang khusus untuk dapat digunakan oleh sistem Retrieval-Augmented Generation (RAG), yang memetakan hierarki dan peran setiap regulasi kunci. ## Bagian I: Fondasi dan Mekanisme Pajak Pertambahan Nilai di Indonesia ## 1.1\\. Karakteristik dan Prinsip Fundamental PPN Pajak Pertambahan Nilai (PPN) merupakan pilar utama dalam sistem perpajakan Indonesia, dirancang sebagai pajak atas konsumsi barang dan jasa di dalam negeri.^{1} Karakteristik fundamentalnya mendefinisikan cara kerja dan dampaknya terhadap perekonomian. Pertama, PPN adalah pajak tidak langsung. Artinya, pihak yang secara hukum wajib memungut, menyetor, dan melaporkan pajak (penjual atau Pengusaha Kena Pajak) berbeda dengan pihak yang menanggung beban ekonomi pajak tersebut (konsumen akhir).^{2} Kedua, PPN bersifat objektif, di mana pengenaan pajak didasarkan pada objek (barang atau jasa yang ditransaksikan) tanpa memperhatikan kondisi subjek pajak atau pembelinya.^{1} Ketiga, PPN merupakan pajak multistahap (multi-stage tax). Pajak ini dikenakan pada setiap mata rantai produksi dan distribusi, mulai dari pabrikan hingga pedagang eceran.^{1} Namun, untuk mencegah pengenaan pajak berganda ( cascading effect), PPN menerapkan prinsip non-duplikasi melalui mekanisme kredit pajak. Mekanisme ini memastikan bahwa pajak hanya dikenakan pada \"nilai tambah\" (value added) di setiap tahap. Pajak yang dibayar atas pembelian input (Pajak Masukan) dapat dikreditkan atau dikurangkan dari pajak yang dipungut atas penjualan output (Pajak Keluaran).^{1} Rancangan sistem ini secara inheren mendorong formalisasi ekonomi dan kepatuhan pajak di seluruh rantai pasokan. Mekanisme kredit pajak menjadi pendorong utamanya. Seorang pengusaha hanya dapat mengkreditkan Pajak Masukan jika menerima bukti pungutan yang sah, yaitu Faktur Pajak, dari pemasoknya.^{3} Hal ini menciptakan insentif yang kuat bagi pembeli untuk bertransaksi dengan pemasok yang terdaftar sebagai Pengusaha Kena Pajak (PKP) dan patuh. Akibatnya, untuk tetap kompetitif, setiap pelaku usaha dalam rantai pasokan terdorong untuk mendaftarkan diri sebagai PKP dan melaporkan transaksinya secara benar. Dengan demikian, sistem PPN itu sendiri berfungsi sebagai mekanisme pengawasan berantai yang mendorong kepatuhan secara sukarela. ## 1.2\\. Terminologi Kunci dalam Ekosistem PPN Pemahaman yang akurat terhadap regulasi PPN memerlukan penguasaan atas terminologi kunci yang didefinisikan dalam Undang-Undang PPN konsolidasi.^{4} Definisi-definisi ini membentuk batas yurisdiksi dan transaksional dari pengenaan PPN. - Daerah Pabean: Wilayah Republik Indonesia yang meliputi darat, perairan, dan ruang udara di atasnya, serta tempat-tempat tertentu di Zona Ekonomi Eksklusif dan landas kontinen. Definisi ini menegaskan bahwa PPN adalah pajak atas konsumsi yang terjadi di dalam wilayah Indonesia.^{4} - Barang Kena Pajak (BKP): Barang berwujud maupun tidak berwujud yang dikenai pajak berdasarkan UU PPN.^{4} - Jasa Kena Pajak (JKP): Setiap kegiatan pelayanan yang menyebabkan suatu barang, fasilitas, atau hak tersedia untuk dipakai, yang dikenai pajak berdasarkan UU PPN.^{4} - Pengusaha Kena Pajak (PKP): Pengusaha, baik orang pribadi maupun badan, yang melakukan penyerahan BKP dan/atau JKP. PKP inilah yang diwajibkan untuk memungut, menyetor, dan melaporkan PPN.^{1} - Dasar Pengenaan Pajak (DPP): Nilai yang menjadi dasar untuk menghitung PPN terutang. DPP dapat berupa Harga Jual (untuk penyerahan BKP), Penggantian (untuk penyerahan JKP), Nilai Impor, Nilai Ekspor, atau Nilai Lain yang ditetapkan oleh Menteri Keuangan.^{1} Perbedaan antara Harga Jual dan Penggantian memperjelas basis perhitungan pajak untuk transaksi barang dan jasa. ## 1.3\\. Mekanisme Pemungutan, Penyetoran, dan Pelaporan Siklus kepatuhan PPN berpusat pada mekanisme perhitungan dan pelaporan bulanan (Masa Pajak). Inti dari mekanisme ini adalah perhitungan PPN terutang dengan cara mengurangkan Pajak Masukan (PPN yang dibayar saat perolehan BKP/JKP) yang dapat dikreditkan dari Pajak Keluaran (PPN yang dipungut saat penyerahan BKP/JKP).^{3} Hasil perhitungan dalam satu Masa Pajak dapat berupa: 1\\. PPN Kurang Bayar: Terjadi jika Pajak Keluaran lebih besar dari Pajak Masukan. Selisih ini wajib disetorkan ke kas negara. 2\\. PPN Lebih Bayar: Terjadi jika Pajak Masukan lebih besar dari Pajak Keluaran. Kelebihan ini dapat dikompensasikan ke Masa Pajak berikutnya atau direstitusi (dimintakan kembali) pada akhir tahun buku.^{7} 3\\. PPN Nihil: Terjadi jika Pajak Keluaran sama dengan Pajak Masukan. Setiap penyerahan BKP/JKP oleh PKP wajib didokumentasikan dengan Faktur Pajak.^{3} Dokumen ini adalah bukti pemungutan PPN dan menjadi syarat mutlak bagi pembeli untuk dapat mengkreditkan Pajak Masukan. Seluruh perhitungan ini kemudian dilaporkan kepada Direktorat Jenderal Pajak (DJP) melalui Surat Pemberitahuan (SPT) Masa PPN. ## Bagian II: Evolusi Kerangka Legislatif PPN: Dari Era 1983 hingga Transformasi Digital ### 2.1\\. Landasan Awal: UU No. 8 Tahun 1983 Sistem PPN modern di Indonesia lahir melalui Undang-Undang Nomor 8 Tahun 1983, yang mulai berlaku efektif pada 1 April 1985.^{3} Regulasi ini merupakan reformasi perpajakan yang fundamental, menggantikan Pajak Penjualan (PPn) yang bersifat cascading. UU ini mengadopsi praktik terbaik internasional dengan memperkenalkan sistem pajak berbasis nilai tambah.^{9} Fitur utama dari UU ini adalah penetapan tarif tunggal sebesar 10% untuk transaksi dalam negeri dan tarif 0% untuk ekspor BKP.^{3} Tarif 0% pada ekspor memastikan bahwa barang dan jasa dari Indonesia dapat bersaing di pasar global tanpa dibebani pajak domestik, sejalan dengan prinsip destinasi (pajak dikenakan di tempat barang/jasa dikonsumsi). UU ini juga meletakkan prinsip-prinsip dasar mengenai objek kena pajak, mekanisme kredit Pajak Masukan terhadap Pajak Keluaran, serta kewajiban administrasi bagi PKP.^{3} ### 2.2\\. Amandemen-Amandemen Penting Pra-HPP: Fokus pada UU No. 42 Tahun 2009 Seiring dengan perkembangan ekonomi, UU PPN mengalami beberapa kali amandemen. Perubahan signifikan ketiga datang melalui UU Nomor 42 Tahun 2009.^{13} Amandemen ini bertujuan untuk mengadaptasi regulasi terhadap pola transaksi bisnis yang semakin kompleks, terutama di sektor jasa yang berkembang pesat.^{13} UU ini juga berupaya menyederhanakan sistem PPN dan menegaskan kembali fungsi pajak sebagai sumber utama penerimaan negara. Meskipun tarif dasar tetap dipertahankan sebesar 10%, UU ini memberikan fleksibilitas kepada pemerintah untuk mengubah tarif dalam rentang 5% hingga 15% melalui Peraturan",
+                            "similarity": 0.8265709980385916,
+                            "metadata": {
+                                "loc": {
+                                    "lines": {
+                                        "to": 1,
+                                        "from": 1
+                                    }
+                                },
+                                "type": "information",
+                                "topic": "PPN",
+                                "knowledge_id": "fdf15910-5eee-4323-8c77-6e5da6f41102",
+                                "tags": []
+                            }
+                        }
+                    ],
+                    "state": "output-available",
+                    "callProviderMetadata": {
+                        "openai": {
+                            "itemId": "fc_03aa2a03e28282e90069b0c5b5910c8194a1805b6a80e06cd2"
+                        }
+                    }
+                },
+                {
+                    "type": "data-om-buffering-end",
+                    "data": {
+                        "cycleId": "buffer-obs-1773192637968-9rjgej8k7",
+                        "operationType": "observation",
+                        "completedAt": "2026-03-11T01:30:44.555Z",
+                        "durationMs": 6587,
+                        "tokensBuffered": 6436,
+                        "bufferedTokens": 190,
+                        "recordId": "27b8e07e-df25-4ff0-a7ae-5e915321781c",
+                        "threadId": "3aaa1b84-2694-49b5-b217-62803beeadb7",
+                        "observations": "Date: Mar 11, 2026\n* 🔴 (08:30) User asked about the tax situation in Indonesia.\n* 🟡 (08:30) Assistant found information about PajakExpress, a registered PJAP providing tax application services, including features like Faktur Pajak creation and VSWP validation.\n* 🟡 (08:30) Assistant found information on Peraturan Pemerintah No. 58 Tahun 2023 regarding income tax rates for personal income related to work, services, or activities.\n* 🟡 (08:30) Assistant found details on PMK 168/2023, which exempts certain individuals from PPh Pasal 21 deductions, such as foreign representatives and international organization officials.\n* 🟡 (08:30) Assistant found analysis on the evolution of VAT regulations in Indonesia, highlighting changes introduced by UU HPP, aiming to optimize state revenue and simplify administration."
+                    }
+                }
+            ]
+        },
+        {
+            "id": "641b6b21-e06e-45f0-917f-dac3264c1958",
+            "role": "assistant",
+            "metadata": {
+                "createdAt": "2026-03-11T01:30:50.119Z",
+                "threadId": "3aaa1b84-2694-49b5-b217-62803beeadb7",
+                "resourceId": "9ccd1329-6008-4727-ae4a-47c864ac460c"
+            },
+            "parts": [
+                {
+                    "type": "data-om-status",
+                    "data": {
+                        "windows": {
+                            "active": {
+                                "messages": {
+                                    "tokens": 6436,
+                                    "threshold": 30000
+                                },
+                                "observations": {
+                                    "tokens": 0,
+                                    "threshold": 40000
+                                }
+                            },
+                            "buffered": {
+                                "observations": {
+                                    "chunks": 0,
+                                    "messageTokens": 0,
+                                    "projectedMessageRemoval": 0,
+                                    "observationTokens": 0,
+                                    "status": "running"
+                                },
+                                "reflection": {
+                                    "inputObservationTokens": 0,
+                                    "observationTokens": 0,
+                                    "status": "idle"
+                                }
+                            }
+                        },
+                        "recordId": "27b8e07e-df25-4ff0-a7ae-5e915321781c",
+                        "threadId": "3aaa1b84-2694-49b5-b217-62803beeadb7",
+                        "stepNumber": 1,
+                        "generationCount": 0
+                    }
+                },
+                {
+                    "type": "data-om-buffering-end",
+                    "data": {
+                        "cycleId": "buffer-obs-1773192637968-9rjgej8k7",
+                        "operationType": "observation",
+                        "completedAt": "2026-03-11T01:30:44.555Z",
+                        "durationMs": 6587,
+                        "tokensBuffered": 6436,
+                        "bufferedTokens": 190,
+                        "recordId": "27b8e07e-df25-4ff0-a7ae-5e915321781c",
+                        "threadId": "3aaa1b84-2694-49b5-b217-62803beeadb7",
+                        "observations": "Date: Mar 11, 2026\n* 🔴 (08:30) User asked about the tax situation in Indonesia.\n* 🟡 (08:30) Assistant found information about PajakExpress, a registered PJAP providing tax application services, including features like Faktur Pajak creation and VSWP validation.\n* 🟡 (08:30) Assistant found information on Peraturan Pemerintah No. 58 Tahun 2023 regarding income tax rates for personal income related to work, services, or activities.\n* 🟡 (08:30) Assistant found details on PMK 168/2023, which exempts certain individuals from PPh Pasal 21 deductions, such as foreign representatives and international organization officials.\n* 🟡 (08:30) Assistant found analysis on the evolution of VAT regulations in Indonesia, highlighting changes introduced by UU HPP, aiming to optimize state revenue and simplify administration."
+                    }
+                },
+                {
+                    "type": "text",
+                    "text": "Berikut adalah gambaran situasi pajak di Indonesia berdasarkan sumber pengetahuan terbaru:\n\n1. Kebijakan dan Perkembangan Pajak\n   - Indonesia terus melakukan reformasi perpajakan, salah satunya melalui Undang-Undang Harmonisasi Peraturan Perpajakan (UU HPP) yang memperluas basis pajak dan menyederhanakan administrasi.\n   - Pajak Penghasilan (PPh) dan Pajak Pertambahan Nilai (PPN) merupakan dua pilar utama penerimaan negara.\n   - Pemerintah juga memperkenalkan mekanisme PPN Final untuk UMKM, sehingga kepatuhan pajak menjadi lebih mudah dan biaya administrasi lebih rendah.\n\n2. Tarif Pajak Penghasilan (PPh 21) Terbaru\n   - Berdasarkan PP No. 58 Tahun 2023, tarif PPh 21 untuk orang pribadi kini menggunakan tarif efektif bulanan yang lebih rinci, mulai dari 0% untuk penghasilan sampai Rp5.400.000 per bulan, dan bertingkat hingga 11% untuk penghasilan di atas Rp28.000.000 per bulan.\n\n3. Pajak Pertambahan Nilai (PPN)\n   - PPN di Indonesia adalah pajak atas konsumsi barang dan jasa di dalam negeri, dengan tarif dasar 11% (dapat berubah sesuai kebijakan pemerintah).\n   - Sistem PPN menggunakan mekanisme kredit pajak, di mana Pajak Masukan dapat dikreditkan terhadap Pajak Keluaran.\n   - Ada fasilitas khusus seperti PPN dibebaskan, tidak dipungut, dan ditanggung pemerintah untuk sektor tertentu.\n\n4. Digitalisasi dan Penyederhanaan Administrasi\n   - Pemerintah mendorong penggunaan aplikasi perpajakan resmi (PJAP) untuk pelaporan dan pembayaran pajak, seperti PajakExpress.\n   - Digitalisasi ini bertujuan meningkatkan kepatuhan dan memudahkan wajib pajak dalam memenuhi kewajiban perpajakan.\n\n5. Tantangan\n   - Tingkat kepatuhan pajak masih menjadi tantangan, terutama di sektor informal dan UMKM.\n   - Pemerintah terus berupaya memperluas basis pajak dan meningkatkan pengawasan melalui sistem digital.\n\nReferensi:\n- UU No. 7 Tahun 2021 tentang Harmonisasi Peraturan Perpajakan\n- PP No. 58 Tahun 2023 tentang Tarif PPh 21\n- Penjelasan sistem PPN dan fasilitasnya\n\nJika Anda membutuhkan penjelasan lebih detail tentang aspek tertentu (misal: tarif PPh, mekanisme PPN, atau kebijakan pajak digital), silakan sebutkan topik yang ingin didalami.",
+                    "providerMetadata": {
+                        "openai": {
+                            "itemId": "msg_03aa2a03e28282e90069b0c5c165a081949245afd13c047ab0"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
