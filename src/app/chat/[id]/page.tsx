@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, Suspense } from 'react';
+import { useEffect, Suspense, useState } from 'react';
 import { useParams, useSearchParams, useRouter } from 'next/navigation';
 import { useChat } from '@ai-sdk/react';
 import { DefaultChatTransport } from 'ai';
@@ -24,7 +24,8 @@ import {
     ReasoningTrigger,
 } from '@/components/ai-elements/reasoning';
 import { WriterAgentMessage } from '@/components/ai-elements/writer-agent-message';
-import { Loader } from 'lucide-react';
+import { Progress } from '@/components/ui/progress';
+import { Check, Loader } from 'lucide-react';
 
 type GenericPart = {
     type: string;
@@ -145,6 +146,31 @@ function ChatContent() {
         }
     };
 
+    const toPlainTextWithNewlines = (value: unknown) =>
+        formatPretty(value)
+            .replace(/\r\n/g, '\n')
+            .replace(/\r/g, '\n')
+            .replace(/\\n/g, '\n')
+            .replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]/g, '')
+            .replace(/[ \t]+/g, ' ')
+            .trim();
+
+    const extractToolOutputText = (output: unknown) => {
+        if (Array.isArray(output)) {
+            return output
+                .map((item) => {
+                    if (item && typeof item === 'object' && 'content' in item) {
+                        const content = (item as { content?: unknown }).content;
+                        if (typeof content === 'string') return content;
+                    }
+                    return formatPretty(item);
+                })
+                .join('\n');
+        }
+        if (typeof output === 'string') return output;
+        return formatPretty(output);
+    };
+
     const renderReasoningBlock = ({
         key,
         label,
@@ -156,7 +182,7 @@ function ChatContent() {
         content: unknown;
         isStreamingPart?: boolean;
     }) => (
-        <Reasoning key={key} isStreaming={isStreamingPart}>
+        <Reasoning defaultOpen={true} key={key} isStreaming={isStreamingPart}>
             <ReasoningTrigger>
                 <div className="flex items-center gap-2">
                     <span className="font-medium">{label}</span>
@@ -166,6 +192,60 @@ function ChatContent() {
             <ReasoningContent>{formatPretty(content) || 'No output available'}</ReasoningContent>
         </Reasoning>
     );
+
+    const ToolProgressBlock = ({
+        label,
+        content,
+        isSuccess,
+        isStreamingPart = false,
+    }: {
+        label: string;
+        content: unknown;
+        isSuccess: boolean;
+        isStreamingPart?: boolean;
+    }) => {
+        const [progress, setProgress] = useState(isSuccess ? 100 : 1);
+        const plainContent = toPlainTextWithNewlines(content).slice(0, 1000);
+
+        useEffect(() => {
+            if (isSuccess) {
+                setProgress(100);
+                return;
+            }
+
+            const interval = setInterval(() => {
+                setProgress((prev) => {
+                    if (prev >= 80) return prev;
+                    const next = prev + Math.max(1, Math.floor((80 - prev) / 7));
+                    return Math.min(80, next);
+                });
+            }, 350);
+
+            return () => clearInterval(interval);
+        }, [isSuccess]);
+
+        return (
+            <Reasoning defaultOpen isStreaming={isStreamingPart && !isSuccess}>
+                <ReasoningTrigger>
+                    <div className="flex w-full flex-col gap-2">
+                        <div className="flex items-center justify-between gap-2">
+                            <span className="font-medium">{label}</span>
+                            <div className="flex items-center gap-2 text-xs text-muted-foreground">
+                                <span>{progress}%</span>
+                                {isSuccess ? (
+                                    <Check className="h-3.5 w-3.5 text-emerald-500" />
+                                ) : (
+                                    <Loader className="h-3.5 w-3.5 animate-spin" />
+                                )}
+                            </div>
+                        </div>
+                        <Progress value={progress} className="h-1.5" />
+                    </div>
+                </ReasoningTrigger>
+                {/* <ReasoningContent>{plainContent || 'No output available'}</ReasoningContent> */}
+            </Reasoning>
+        );
+    };
 
     const isSequentialThinkingPart = (part: GenericPart) =>
         part.type.startsWith('tool-') &&
@@ -209,36 +289,6 @@ function ChatContent() {
                                         );
                                     }
 
-                                    if (part.type === 'tool-invocation') {
-                                        const toolName = part.toolInvocation?.toolName || 'Unknown Tool';
-                                        return renderReasoningBlock({
-                                            key,
-                                            label: `Using tool: ${toolName}`,
-                                            content: part.toolInvocation?.input?.thought || 'No input available',
-                                            isStreamingPart: isStreaming,
-                                        });
-                                    }
-
-                                    if (part.type === 'dynamic-tool') {
-                                        const toolName = part.data?.id || 'Unknown Tool';
-                                        const toolResult = part.data?.text;
-
-                                        if (toolName === 'writer-agent' && toolResult) {
-                                            return (
-                                                <div key={key} className="mt-4 w-full">
-                                                    <WriterAgentMessage content={toolResult} />
-                                                </div>
-                                            );
-                                        }
-
-                                        return renderReasoningBlock({
-                                            key,
-                                            label: `Using tool: ${toolName}`,
-                                            content: part.data?.input?.thought,
-                                            isStreamingPart: isStreaming,
-                                        });
-                                    }
-
                                     if (part.type === 'reasoning' || part.type === 'data-tool-agent') {
                                         const agentData = part.data || {};
                                         const agentName = agentData.id || 'Unknown Agent';
@@ -250,65 +300,6 @@ function ChatContent() {
                                             isStreamingPart: isStreaming,
                                         });
                                     }
-
-                                    // if (part.type === 'data-om-status') {
-                                    //     const windows = part.data?.windows;
-                                    //     const activeMessageTokens = windows?.active?.messages?.tokens;
-                                    //     const activeMessageThreshold = windows?.active?.messages?.threshold;
-                                    //     const activeObservationTokens = windows?.active?.observations?.tokens;
-                                    //     const activeObservationThreshold = windows?.active?.observations?.threshold;
-
-                                    //     return renderReasoningBlock({
-                                    //         key,
-                                    //         label: 'Thought Process: Observation Memory Status',
-                                    //         content: {
-                                    //             recordId: part.data?.recordId,
-                                    //             threadId: part.data?.threadId,
-                                    //             stepNumber: part.data?.stepNumber,
-                                    //             generationCount: part.data?.generationCount,
-                                    //             activeMessages: `${activeMessageTokens ?? 0}/${activeMessageThreshold ?? 0}`,
-                                    //             activeObservations: `${activeObservationTokens ?? 0}/${activeObservationThreshold ?? 0}`,
-                                    //             buffered: windows?.buffered,
-                                    //         },
-                                    //         isStreamingPart: isStreaming,
-                                    //     });
-                                    // }
-
-                                    // if (part.type === 'data-om-buffering-start') {
-                                    //     return renderReasoningBlock({
-                                    //         key,
-                                    //         label: 'Thought Process: Observation Buffering Started',
-                                    //         content: {
-                                    //             cycleId: part.data?.cycleId,
-                                    //             operationType: part.data?.operationType,
-                                    //             startedAt: part.data?.startedAt,
-                                    //             tokensToBuffer: part.data?.tokensToBuffer,
-                                    //             recordId: part.data?.recordId,
-                                    //             threadId: part.data?.threadId,
-                                    //             config: part.data?.config,
-                                    //         },
-                                    //         isStreamingPart: isStreaming,
-                                    //     });
-                                    // }
-
-                                    // if (part.type === 'data-om-buffering-end') {
-                                    //     return renderReasoningBlock({
-                                    //         key,
-                                    //         label: 'Thought Process: Observation Buffering Completed',
-                                    //         content: {
-                                    //             cycleId: part.data?.cycleId,
-                                    //             operationType: part.data?.operationType,
-                                    //             completedAt: part.data?.completedAt,
-                                    //             durationMs: part.data?.durationMs,
-                                    //             tokensBuffered: part.data?.tokensBuffered,
-                                    //             bufferedTokens: part.data?.bufferedTokens,
-                                    //             recordId: part.data?.recordId,
-                                    //             threadId: part.data?.threadId,
-                                    //             observations: part.data?.observations,
-                                    //         },
-                                    //         isStreamingPart: isStreaming,
-                                    //     });
-                                    // }
 
                                     if (part.type.startsWith('tool-')) {
                                         const toolName = part.type.replace('tool-', '');
@@ -322,31 +313,66 @@ function ChatContent() {
                                             });
                                         }
 
+                                        if (toolName === 'searchTaxKnowledgeTool') {
+                                            const query = part.input?.query || 'nothing';
+                                            const content = extractToolOutputText(part.output?.map(i => i.text).join('\n\n')) || 'Mencari referensi...';
+                                            const isSuccess =
+                                                part.state === 'output-available' ||
+                                                part.state === 'done' ||
+                                                part.state === 'completed' ||
+                                                part.output !== undefined;
+
+                                            return (
+                                                <ToolProgressBlock
+                                                    key={key}
+                                                    label={`🔎 Mencari informasi tentang : ${query}`}
+                                                    content={content}
+                                                    isSuccess={isSuccess}
+                                                    isStreamingPart={isStreaming}
+                                                />
+                                            );
+                                        }
+
                                         if (toolName === 'webSearchTool') {
+                                            const query = part.input?.query || 'nothing';
+                                            const content = extractToolOutputText(part.output?.text) || 'Mencari referensi...';
+                                            const isSuccess =
+                                                part.state === 'output-available' ||
+                                                part.state === 'done' ||
+                                                part.state === 'completed' ||
+                                                part.output !== undefined;
+
+                                            return (
+                                                <ToolProgressBlock
+                                                    key={key}
+                                                    label={`🔎 Mencari informasi tentang : ${query}`}
+                                                    content={content}
+                                                    isSuccess={isSuccess}
+                                                    isStreamingPart={isStreaming}
+                                                />
+                                            );
+                                        }
+
+                                        if (toolName === 'calculatorTool') {
                                             return renderReasoningBlock({
                                                 key,
-                                                label: `🔎 Mencari informasi tentang : ${part.input?.query || 'nothing'}`,
-                                                content: part.output?.map(i => i.content).join('\n\n') || 'there its',
+                                                label: `🔢 Kalkulator`,
+                                                content:  `${part?.input?.expression || ''} = ${part.output}` || 'Nothing',
                                                 isStreamingPart: isStreaming,
                                             });
                                         }
 
-                                        return renderReasoningBlock({
-                                            key,
-                                            label: `Using tool: ${toolName}`,
-                                            content: `Mencari informasi tentang : ${part.input?.query || 'nothing'}`,
-                                            isStreamingPart: isStreaming,
-                                        });
-                                    }
+                                        if (toolName === 'skill-activate') {
+                                            return renderReasoningBlock({
+                                                key,
+                                                label: ` 🔧 Aktifkan Skill`,
+                                                content: part.output || 'Nothing',
+                                                isStreamingPart: isStreaming,
+                                            });
+                                        }
 
-                                    // if (part.type.startsWith('data-')) {
-                                    //     return renderReasoningBlock({
-                                    //         key,
-                                    //         label: `Event: ${part.type}`,
-                                    //         content: part.data ?? part,
-                                    //         isStreamingPart: isStreaming,
-                                    //     });
-                                    // }
+                                        return null;
+                                    }
 
                                     return null
                                 })}
