@@ -58,7 +58,7 @@ function ChatContent() {
         queryFn: async () => {
             if (!chatId) return [];
             try {
-                const response = await fetch(`http://localhost:4050/chat/threads/${chatId}/messages`);
+                const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/chat/threads/${chatId}/messages`);
                 if (!response.ok) {
                     if (response.status === 404 || response.status === 400) return [];
                     throw new Error('Failed to fetch messages');
@@ -85,7 +85,7 @@ function ChatContent() {
 
     const { messages, sendMessage, isLoading, stop, status } = useChat({
         transport: new DefaultChatTransport({
-            api: 'http://localhost:4050/chat/network',
+            api: `${process.env.NEXT_PUBLIC_API_URL}/chat/network`,
         }),
         id: chatId,
         messages: initialMessages,

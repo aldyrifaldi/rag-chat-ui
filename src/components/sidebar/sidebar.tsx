@@ -31,7 +31,7 @@ export function Sidebar() {
     useEffect(() => {
         const fetchThreads = async () => {
             try {
-                const response = await fetch('http://localhost:4050/chat/threads');
+                const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/chat/threads`);
                 if (!response.ok) throw new Error('Failed to fetch threads');
                 const data = await response.json();
                 
