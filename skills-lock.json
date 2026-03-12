@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "skills": {
+    "ai-elements": {
+      "source": "vercel/ai-elements",
+      "sourceType": "github",
+      "computedHash": "fe9941dffde6a0b0ad032e6100a07f7a4e5483ae088540bb52cf7310879a707e"
+    },
+    "tanstack-query": {
+      "source": "smithery.ai",
+      "sourceType": "well-known",
+      "computedHash": "be55d2665a2644210c94f5986afe5e391be94c1df256b18cb94861ff2b597685"
+    }
+  }
+}
