@@ -1,5 +1,7 @@
 'use client';
 
+import type { FileUIPart } from 'ai';
+
 import {
     PromptInput,
     PromptInputBody,
@@ -23,7 +25,7 @@ import {
 import { cn } from '@/utils/cn';
 
 interface ChatInputProps {
-    onSubmit: (message: string) => void;
+    onSubmit: (message: { text: string; files: FileUIPart[] }) => void;
     isLoading?: boolean;
     onStop?: () => void;
     status?: 'streaming' | 'submitted' | 'ready' | 'error';
@@ -64,9 +66,9 @@ export function ChatInput({
     className,
     defaultValue,
 }: ChatInputProps) {
-    const handleSubmit = (message: { text: string; files: any[] }) => {
-        if (!message.text.trim()) return;
-        onSubmit(message.text);
+    const handleSubmit = (message: { text: string; files: FileUIPart[] }) => {
+        if (!message.text.trim() && message.files.length === 0) return;
+        onSubmit(message);
     };
 
     const displayStatus = status || (isLoading ? 'streaming' : 'ready');
