@@ -700,6 +700,49 @@ function ChatContent() {
                                             });
                                         }
 
+                                        if (toolName === 'searchPutusanTool') {
+                                            const inputDisplay = part.input?.query || part.input?.keyword || (part?.input ? JSON.stringify(part.input) : '');
+                                            const count = part?.output?.items?.length || 0;
+                                            return renderReasoningBlock({
+                                                key,
+                                                label: `🔎 Menelusuri putusan... ${inputDisplay}`,
+                                                content: count === 0 ? 'Tidak ada putusan yang ditemukan' : `Ditemukan ${count} putusan`,
+                                                isStreamingPart: isStreaming,
+                                            });
+                                        }
+
+                                        if (toolName === 'putusanCategoryTool') {
+                                            const inputDisplay = part.input?.kategori || part.input?.category || (part?.input ? JSON.stringify(part.input) : '');
+                                            const count = part?.output?.items?.length || 0;
+                                            return renderReasoningBlock({
+                                                key,
+                                                label: `🔎 Menelusuri kategori putusan... ${inputDisplay}`,
+                                                content: count === 0 ? 'Tidak ada putusan yang ditemukan' : `Ditemukan ${count} putusan`,
+                                                isStreamingPart: isStreaming,
+                                            });
+                                        }
+
+                                        if (toolName === 'putusanAmarTool') {
+                                            const inputDisplay = part.input?.amar || (part?.input ? JSON.stringify(part.input) : '');
+                                            const count = part?.output?.items?.length || 0;
+                                            return renderReasoningBlock({
+                                                key,
+                                                label: `🔎 Menelusuri amar putusan... ${inputDisplay}`,
+                                                content: count === 0 ? 'Tidak ada putusan yang ditemukan' : `Ditemukan ${count} putusan`,
+                                                isStreamingPart: isStreaming,
+                                            });
+                                        }
+
+                                        if (toolName === 'putusanDetailTool') {
+                                            const inputDisplay = part.input?.id || part.input?.url || (part?.input ? JSON.stringify(part.input) : '');
+                                            return renderReasoningBlock({
+                                                key,
+                                                label: `🔎 Mengambil detail putusan... ${inputDisplay}`,
+                                                content: part?.output ? 'Detail putusan berhasil diambil' : 'Sedang mengambil detail...',
+                                                isStreamingPart: isStreaming,
+                                            });
+                                        }
+
                                         if (toolName === 'searchTaxKnowledgeTool') {
                                             const query = part.input?.query || 'Menelusuri...';
                                             const isSuccess =
@@ -714,6 +757,7 @@ function ChatContent() {
                                                     label={`🔎 Mencari informasi tentang : ${query}`}
                                                     isSuccess={isSuccess}
                                                     isStreamingPart={isStreaming}
+
                                                 />
                                             );
                                         }
