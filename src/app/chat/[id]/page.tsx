@@ -115,7 +115,7 @@ function ChatContent() {
 
     const { messages, sendMessage, isLoading, stop, status, addToolApprovalResponse, addToolOutput } = useChat({
         transport: new DefaultChatTransport({
-            api: `${apiUrl}/chat/network`,
+            api: `${apiUrl}/chat`,
         }),
         id: chatId,
         messages: initialMessages,
